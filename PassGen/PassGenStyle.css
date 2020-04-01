@@ -1,0 +1,54 @@
+body{
+background: rgba(77,57,116,0.69);
+background: -moz-linear-gradient(left, rgba(77,57,116,0.69) 17%, rgba(63,47,94,0.69) 34%, rgba(15,12,21,1) 91%, rgba(7,6,9,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(17%, rgba(77,57,116,0.69)), color-stop(34%, rgba(63,47,94,0.69)), color-stop(91%, rgba(15,12,21,1)), color-stop(100%, rgba(7,6,9,1)));
+background: -webkit-linear-gradient(left, rgba(77,57,116,0.69) 17%, rgba(63,47,94,0.69) 34%, rgba(15,12,21,1) 91%, rgba(7,6,9,1) 100%);
+background: -o-linear-gradient(left, rgba(77,57,116,0.69) 17%, rgba(63,47,94,0.69) 34%, rgba(15,12,21,1) 91%, rgba(7,6,9,1) 100%);
+background: -ms-linear-gradient(left, rgba(77,57,116,0.69) 17%, rgba(63,47,94,0.69) 34%, rgba(15,12,21,1) 91%, rgba(7,6,9,1) 100%);
+background: linear-gradient(to right, rgba(77,57,116,0.69) 17%, rgba(63,47,94,0.69) 34%, rgba(15,12,21,1) 91%, rgba(7,6,9,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d3974', endColorstr='#070609', GradientType=1 );
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 1em;
+}
+
+.out{
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+}
+
+.myBtn{
+    padding: 20px 20px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    
+}
+
+.pass{
+    width: 320px;
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 0;
+    padding: 20px;
+    background-color: #f63;
+    
+}
+
+.in{
+    margin: 0;
+    padding: 9px;
+    float: right;
+    text-align: center;
+    color: #f63;
+    font-size: 3em;
+   
+    
+    
+}
