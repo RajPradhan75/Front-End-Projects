@@ -1,0 +1,41 @@
+/*
+body{
+    
+    background: url("../images/bg1.jpg")
+    no-repeat center center fixed;
+    background-size: cover;
+        
+    
+}*/
+
+body{
+         background: url(../images/bg.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+div{
+    background-color: lightblue;
+}
+
+i{
+    color: black;
+}
+
+
+
+    h1{
+        color: white;
+        text-align: center;
+        width: 500px;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 300px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 3em;
+
+    }
+
+    
+    
+
