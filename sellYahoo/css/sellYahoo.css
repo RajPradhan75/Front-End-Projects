@@ -1,0 +1,49 @@
+body{
+    padding-top: 20px;
+    background: url(../images/businessman_op1.jpg)
+    no-repeat center center fixed;
+    
+
+
+    
+}
+
+.nav-fill{
+    background-color:#fff;
+    border-top: 1px solid #000000;    
+    border-bottom: 1px solid #000000;
+    border-radius: 5px;
+/*    border: 1px solid #000000;   */
+    
+}
+
+.nav-fill>li>a{   
+    padding: 15px 0;
+    color: #777;
+    text-align: center;
+    background-color: #e5e5e5;
+}
+
+.jumbotron{
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Fira Sans' ;
+}
+
+.row{
+    font-size: 18px;
+    font-family: 'Trade Winds' ;
+
+    
+}
+
+
+
+.jumbotron .btn{
+    padding: 15px 25px;
+    font-size: 22px;
+}
+
+.centro{
+    text-align: center;
+}
