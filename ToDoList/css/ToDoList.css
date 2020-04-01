@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box; 
+}
+
+body{
+    min-height: 100%;
+    background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(../css/wooden.jpg)
+    no-repeat center center fixed ; 
+    
+    
+}
+
+.wrapper{
+    width:500px;
+    height: 550px;    
+    margin: 50px auto;
+    border: solid 8px black;
+    border-radius: 20px;
+    background: white;  
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    background: linear-gradient(black, white);
+    border-radius: 10px 10px 0 0;
+    font-size: 25px;
+    padding-top:18px;
+    color: yellow;
+    font-family: 'Lobster', cursive;
+
+    
+}
+span{
+    border-bottom: dashed 2px black;
+    display: block;
+    height:90%;
+    width:100%;        
+}
+
+.wrap-list{
+    height: 50%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    
+      
+}
+input[type="checkbox"]{
+        position: relative;
+        top:14px;
+        right: 12px;
+        float: right;
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    color: rgba(0,0,0,.3);
+}
+
+.list    {
+    list-style: none;
+    color: rgba(0,0,0,.8);
+   
+}
+
+.list li{
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    font-family: 'Acme', sans-serif;
+
+    
+}
+
+label{
+    padding: 10px;
+    float: left;
+    width: 90%; 
+}
+
+.grey{
+    background-color: rgba(0,0,50, .1);
+}
+
+
+
+
+
+
+
