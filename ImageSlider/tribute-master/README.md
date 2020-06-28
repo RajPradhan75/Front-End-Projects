@@ -480,7 +480,7 @@ var tribute = new Tribute({
   menuItemTemplate: function(item) {
     return item.original.key + " = " + item.original.value;
   }
-});
+}});
 ```
 
 ## Framework Support
